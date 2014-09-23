@@ -12,7 +12,11 @@ function myDecimal(){
 }
 myDecimal();
 
-
-
-
+// Given a string version of a number such as "42", return the value as an actual number, such as 42.
+function myParse(){
+var parseNumber = "42";
+var sum = parseInt(parseNumber) + 42;
+console.log(sum);
+}
+myParse();
 

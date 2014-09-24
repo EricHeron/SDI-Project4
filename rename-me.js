@@ -20,3 +20,13 @@ console.log(sum);
 }
 myParse();
 
+// Is the string a URL? does it start with http:, or https:
+function myEmail(){
+var myString = "706-555-5555";
+if (myString == "jondoe@fullsail.edu"){
+	console.log("This is an email address");
+} else {
+	console.log("This is not an email address!");
+}
+}
+myEmail();

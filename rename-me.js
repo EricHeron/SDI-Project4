@@ -20,7 +20,7 @@ console.log(sum);
 }
 myParse();
 
-// Is the string a URL? does it start with http:, or https:
+// Does this string follow an email pattern?
 function myEmail(){
 var myString = "706-555-5555";
 if (myString == "jondoe@fullsail.edu"){

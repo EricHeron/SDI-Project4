@@ -33,11 +33,13 @@ myEmail();
 
 // Does this string follow a phone number pattern?
 function myPhone(){
-	var phoneString = "706-555-5555";
-	if (phoneString == "706-555-5555"){
-		console.log("This looks like a phone number");
-	} else {
-		console.log("This does not look like a phone number");
+	var phoneString = [7,0,6,5,5,5,1,1,1,1];
+	for (i = 0; i < 10; i++){
+		if (phoneString.length > 10){
+			console.log("Enter 10 digits please.");
+		} else {
+		console.log("This looks like a phone number to me!");
+		} 
 	}
 }
 myPhone();

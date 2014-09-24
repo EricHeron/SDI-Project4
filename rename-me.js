@@ -42,6 +42,17 @@ function myPhone(){
 }
 myPhone();
 
+// Find the smallest value in an array that is greater than a given number.
+function findNum(){
+	var randomNum = [22,33,44,55,66,77];
+	for (i = 0; i < randomNum.length; i++){
+		if ((randomNum[i] > 22) && (randomNum[i] < 44)){
+			console.log("I found it! " + randomNum[i] + " is the next smallest number, after " + randomNum[0]);
+		}
+	}
+}
+findNum();
+
 
 
 

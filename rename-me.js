@@ -14,19 +14,34 @@ myDecimal();
 
 // Given a string version of a number such as "42", return the value as an actual number, such as 42.
 function myParse(){
-var parseNumber = "42";
-var sum = parseInt(parseNumber) + 42;
-console.log(sum);
+	var parseNumber = "42";
+	var sum = parseInt(parseNumber) + 42;
+	console.log(sum);
 }
 myParse();
 
 // Does this string follow an email pattern?
 function myEmail(){
-var myString = "706-555-5555";
-if (myString == "jondoe@fullsail.edu"){
-	console.log("This is an email address");
+	var myString = "706-555-5555";
+	if (myString == "jondoe@fullsail.edu"){
+		console.log("This is an email address");
 } else {
 	console.log("This is not an email address!");
-}
+	}
 }
 myEmail();
+
+// Does this string follow a phone number pattern?
+function myPhone(){
+	var phoneString = "706-555-5555";
+	if (phoneString == "706-555-5555"){
+		console.log("This looks like a phone number");
+	} else {
+		console.log("This does not look like a phone number");
+	}
+}
+myPhone();
+
+
+
+

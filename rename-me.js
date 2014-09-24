@@ -53,6 +53,10 @@ function findNum(){
 }
 findNum();
 
-
-
-
+// Title-case a string (split into words, then uppercase the first letter of each word.)
+function firstLetterCaps(){
+	var capitalizeMe = "can you please capitalize me."
+	var caps = capitalizeMe[0].toUpperCase() + capitalizeMe.substring(1,4) + 	capitalizeMe[4].toUpperCase() + capitalizeMe.substring(5, 8) + 			capitalizeMe[8].toUpperCase() + capitalizeMe.substring(9, 15) + capitalizeMe[15].toUpperCase() + capitalizeMe.substring(16, 26) + capitalizeMe[26].toUpperCase() + capitalizeMe.substring(27, 29);
+console.log(caps);
+}
+firstLetterCaps();
